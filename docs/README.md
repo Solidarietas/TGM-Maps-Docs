@@ -1,11 +1,11 @@
-## Warzone
+## PVP Arcade
 > ### Welcome to the TGM Maps Documentation Site!
 
-This website is for documenting Warzone's [TGM](https://github.com/Warzone/TGM) plugin, formerly used on [warzone.network](https://warzone.network).
+This website is for documenting PVP Arcade's [TGM](https://github.com/Solidarietas/TGM) plugin, used on [pvparcade.club](https://pvparcade.club).
 
 ### What is TGM?
 
-TGM is a team-oriented Minecraft PvP suite inspired by [PGM](https://github.com/PGMDev/PGM). TGM's goal is to shift most of the game logic to Java, which allows for rapid development and modernization of gamemodes over time. TGM parses something called JSON (JavaScript Object Notation) in order to load and manage maps on the server, which are handled by the server's [rotations](https://github.com/Warzone/Maps/blob/master/rotation.json). The development of TGM is primarily driven by the community.
+TGM is a team-oriented Minecraft PvP suite inspired by [PGM](https://github.com/PGMDev/PGM). TGM's goal is to shift most of the game logic to Java, which allows for rapid development and modernization of gamemodes over time. TGM parses something called JSON (JavaScript Object Notation) in order to load and manage maps on the server, which are handled by the server's [rotations](https://github.com/Solidarietas/TGM-Maps/blob/master/rotation.json). The development of TGM is primarily driven by the community.
 
 ### What do JSON files do?
 
@@ -26,7 +26,5 @@ JSON files must be fully functional in order to be loaded onto a TGM server with
 3. Start the server.
 
 ---
-
-While TGM is no longer actively maintained, you may [create pull requests on GitHub](https://github.com/WarzoneMC/tgm-docs) to add onto existing documentation and features. If you wish to use TGM for your own development project, we recommend forking this repository and maintaining your own documentation website.
 
 

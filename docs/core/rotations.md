@@ -1,5 +1,5 @@
 # Rotations
-As of July 5th 2020 Warzone no longer uses rotation.txt and now uses rotation.json to utilise multiple (dynamic) rotations. Rotations now have support to add multiple rotations, each rotation having its own name and 'requirements' such as the number of players needed.
+rotation.txt has been replaced with rotation.json to utilise multiple (dynamic) rotations. Rotations now have support to add multiple rotations, each rotation having its own name and 'requirements' such as the number of players needed.
 
 If a rotation is manually set by a user that has permissions, the rotation should start from the beginning and then play through to the end and once the rotation has been completed it should automatically return to the normal or "default" rotation.
 

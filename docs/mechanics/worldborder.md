@@ -1,6 +1,6 @@
 # World Border
 
-This module is used to manage the vanilla Minecraft world border within the bounds of a Warzone map. While only one border can be used at a time, the module lets you change the starting size, end size, delay, and center.
+This module is used to manage the vanilla Minecraft world border within the bounds of a PVP Arcade map. While only one border can be used at a time, the module lets you change the starting size, end size, delay, and center.
 
 ## Example
 

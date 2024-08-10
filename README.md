@@ -1,8 +1,6 @@
 # Documentation
 
-Documentation for the [TGM](https://github.com/Warzone/TGM) (Team Game Manager) used to host multiple Minecraft gamemodes. You can view the docs located at https://docs.warz.one. Pages are hosted using Github Pages.
-
-Note: TGM is no longer maintained or supported. Please consider an alternative solution such as [PGM](https://github.com/PGMDev/PGM).
+Documentation for the [TGM](https://github.com/Solidarietas/TGM) (Team Game Manager) used to host multiple Minecraft gamemodes on PVP Arcade at `pvparcade.club`. You can view the docs located at https://solidarietas.github.io/TGM-Maps-Docs/. Pages are hosted using Github Pages.
 
 ## Contributing
 
