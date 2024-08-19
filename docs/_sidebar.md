@@ -22,6 +22,7 @@
   * [Item Removal](mechanics/itemremoval.md)
   * [Gamerules](mechanics/gamerules.md)
   * [Time](mechanics/time.md)
+  * [Legacy (1.8)](mechanics/legacy.md)
 
 * Inventory & Player
   * [Kits & Inventory](inventoryandplayer/kits.md)
