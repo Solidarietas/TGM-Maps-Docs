@@ -3,7 +3,7 @@
 This module is used to teleport players to different parts of the map.
 
 ## Example 1
-
+This example teleports all players in the "blue-portal" region to (10, 23, 34) and sets their yaw to 180 (making them face a specific direction). This portal will only work for blue team members and will not play a sound.
 ```json
     "portals": [ 
         {"from": "blue-portal", "to": "10, 23, 34, 180", "teams": ["blue"], "sound": false}
@@ -11,10 +11,30 @@ This module is used to teleport players to different parts of the map.
 ```
 
 ## Example 2
+The following example portal does the following to members of the "defenders" team entering the "portal-area" region:
+- Teleports them -71 blocks in the x-direction relative to where they are
+- Sets their y-position to y=48
+- Leaves their z-position unchanged
+- Rotates their yaw (left-right head rotation) right by 45°
+- Sets their pitch (up-down head rotation) to 0° (facing straight forward)
 
+It also plays the teleport sound.
 ```json
-    "portals": [ 
-        {"from": "blue-portal", "to": "10, 23, 34, 180", "teams": ["blue"], "sound": false}
+    "portals": [
+        {
+            "from": "portal-area",
+            "to": "-71, 48, 0, 45, 0",
+            "teams": [
+                "defenders"
+            ],
+            "sound": true,
+            "flags": {
+                "relative-x-position": true,
+                "relative-z-position": true,
+                "relative-yaw": true,
+                "relative-pitch": false
+            }
+        },
     ],
 ```
 
