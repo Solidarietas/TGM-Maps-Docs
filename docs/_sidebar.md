@@ -23,6 +23,8 @@
   * [Gamerules](mechanics/gamerules.md)
   * [Time](mechanics/time.md)
   * [Legacy (1.8)](mechanics/legacy.md)
+  * [Void](mechanics/void.md)
+  * [Build Height](mechanics/buildheight.md)
 
 * Inventory & Player
   * [Kits & Inventory](inventoryandplayer/kits.md)
