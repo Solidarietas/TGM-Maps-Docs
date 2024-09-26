@@ -5,8 +5,8 @@ The ability to configure the maximum height at which players can stack boats may
 
 ## Example
 
-Make the void kill all players who fall below y=-64
+Prevent players from placing blocks above y=32
 
 ```json
-	"buildHeight": -64
+	"buildHeight": 32
 ```
